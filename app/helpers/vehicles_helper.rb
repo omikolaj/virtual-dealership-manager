@@ -10,6 +10,6 @@ module VehiclesHelper
 
     def report_type
       params[:type] == "0" ? "Vehicles in repair" : "Lot ready vehicles"
-		end
-		
+    end
+
 end

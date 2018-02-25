@@ -13,6 +13,7 @@ class Vehicle < ApplicationRecord
     permissions_for :employees, :destroy, :edit, :view, :new
 
     def dealership_vehicle_attributes=(dealership_vehicles_attributes)
+      # dealership_vehicles_attributes = {"is_lot_ready" => "either 0 true or 1 false", "buyer" => "", "price" => ""}
       self.build_dealership_vehicle(dealership_vehicles_attributes)
       self.dealership = Dealership.find_by(:id => dealership_vehicles_attributes["dealership_id"].to_i)
     end
