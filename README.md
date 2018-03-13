@@ -2,6 +2,7 @@
 Ruby on Rails application built with Postgres database that mimics car dealership assets management. Users can sign up as employees or managers. This application implements security measures for authentication and authorization. As a manager user has the ability to generate reports, modify employees' permission levels and create and delete dealerships.
 
 ##Features and Technologies used
+- Ruby on Rails
 - Bootstrap used for styling
 - Custom built authentication system
 - Custom build autherization system
