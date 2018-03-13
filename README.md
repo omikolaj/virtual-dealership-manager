@@ -10,6 +10,10 @@ Ruby on Rails application built with Postgres database that mimics car dealershi
 - Full CRUD support (Create, Retrieve, Update, Delete) with complex inner joins relationships
 - PostgreSQL database
 
+## Blog
+
+A blog post about this project can be found [here](http://omikolaj.com/ruby_on_rails_-_quick_and_easy)
+
 ## Usage
 This application has been deployed to Heroku. You can find the live version on http://virtual-dealership.herokuapp.com. You do not have to signup, you can use the 'Login as guest' option.
 
